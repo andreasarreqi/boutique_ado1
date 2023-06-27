@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-n(x!!epnrizbu8)hp)wi)((5am#+rr0#6&4cllhpn1babjqans
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-andreasarre-boutiqueado-ebhit6bzcwc.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['8000-andreasarre-boutiqueado-ufjruts2qkm.ws-eu100.gitpod.io']
 
 
 # Application definition
@@ -176,3 +176,4 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIP{E_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIP{E_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIP{E_WH_SECRET', '')
+DEFAULT_FROM_EMAIL = 'boutiqueado@example.com'
